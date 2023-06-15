@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    font-family: 'Hanken Grotesk', sans-serif;
+    flex-wrap: wrap;
+    justify-content: center ;
+    margin: 50px auto;
+    min-height: 50vh;
+    
+}
+
+.first{
+
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-image:linear-gradient( hsl(252, 100%, 67%),  hsl(241, 81%, 54%) );
+    text-align: center;
+    padding: 20px;
+    width:30vh;
+    border-radius: 30px;
+}
+.round{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),  hsla(241, 72%, 46%, 0));
+    width: 50%;
+    border-radius: 60%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+}
+.first p{
+    margin-bottom: 40px;
+}
+
+.icon{
+    background-color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    border: 1px solid whitesmoke;
+    width: 30vh;
+    padding: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-style: none;
+}
+
+.real-icon{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 13px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.btn{
+    color: white;
+    background-color:dimgrey;
+    width: 90%;
+    margin: 10px;
+    padding:15px;
+    border-radius: 30px;
+    text-align:center;
+    border-style: none;
+}
+
+#icon-color{
+   background-color: hsl(0, 59%, 88%);
+}
+
+#icon-color1{
+    background-color: hsl(38, 56%, 78%);
+}
+#icon-color2{
+    background-color: hsl(241, 70%, 87%);
+}
+#icon-color3{
+    background-color: hsl(225, 71%, 80%);
+}
